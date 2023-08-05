@@ -1,0 +1,505 @@
+/*The Navbar Starts*/
+.navbar {
+    height: 80px;   
+    
+    
+}
+.navbar-brand{
+    margin-left: 104px;
+    color: #764c2d;
+    font-size: 35px;
+    font-family:  Verdana;
+    
+}
+
+.navbar-brand span{
+    color:#a98f7a;
+    font-family:Times;
+}
+.navbar-brand:hover{
+    margin-left: 104px;
+    color: #764c2d;
+    font-size: 35px;
+    font-family: Verdana;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
+{
+    color:#111;
+    font-weight: 500;
+}
+.collapse{
+    margin-left: 50px;
+    font-size: 19px;
+    margin-right: 40px;
+}
+.navbar-nav{
+   gap: 25px;
+}
+.btn-outline-success {
+    color: white;
+}
+/*The Navbar Ends*/
+
+
+/*The list container Starts*/
+.book-category{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    margin: 0 0 12px 0;
+}
+.book-subtitle{
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto 5px auto;
+}
+.card-body .book-author{
+    color: #4E4E4E;
+}
+.subject{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card{
+    margin-bottom: 40px;
+}
+.card-img-top{
+    width: 285px;
+    height: 286px;
+}
+.btn{
+    color: #fff;
+ background-color: #E7B366;
+ border-color: #E38B29;
+
+}
+.btn:hover{
+    color: #fff;
+    background-color: #c79953;
+ border-color: #aa6619;
+}
+.btn:focus{
+    color: #fff;
+    background-color: #E7B366;
+ border-color: #E38B29;
+}
+/*The list container Ends*/
+
+
+/*The footer Starts*/
+.footer{
+    
+    color: #b3b3b3;
+    background-color: #232323;
+    padding-top: 15px;
+}
+.footer h6{
+    color: #d3d3d3;
+}
+
+/*The footer Ends*/
+
+/*The deatail page Starts*/
+.details{
+    height: 617px;
+    margin-top: 40px;
+}
+.det-btn{
+    width: 80px;
+    margin-top: 20px;
+}
+.det-img{
+    width: 300px;
+}
+#booktitle{
+    margin-bottom: 0;
+    width: 100%;
+}
+.gr-h1--serif {
+    font-family: "Merriweather", "Georgia", serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 4px 0px 4px 0px;
+}
+b{
+    line-height: 28px;
+    font-size: 20px;
+    font-family: "Merriweather", "Georgia", serif;
+    margin-top: 20px;
+    display: block
+}
+.authorname{
+    color: #333;
+    font-size: 18px;
+    font-family: "Merriweather", "Georgia", serif;
+    
+}
+.extraction{
+    font-size: 18px;
+    color: #111;
+}
+.publish-date{
+    font-size:15px;
+    color: #3b3838;
+}
+/*The deatail page Ends*/
+
+/*The quote page Starts*/
+.quotes{
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.quotes_search{
+    background-image: url(../images/search_background-5b9b2044e94059429221088d9f3c7db1ec25895dd8fe525c0f0aa67367137442.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d4c7bc;
+    background-size: cover;
+    padding: 229px 0 198px 0;
+    margin-bottom: 30px;
+    
+}
+.quotes-form-control, .books-form-control{
+max-width: 912px;
+    width: 100%;
+    height: 91px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
+}
+.quotes_search_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.quotes_search_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.quotes_search_title{
+    color: #111;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    margin: 0 0 10px 0;
+}
+.quotes_search_subtitle{
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+.quote-card{
+    background-image: url(../images/quote_background-07d9db8d84f646b3190396173ac58609042b8d39a328738a68654f497472c229.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 25%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 0 20px;
+    width: 100%;
+
+}
+.quote-card_inner{
+    padding: 30px;
+}
+.quotes__main__list{
+    column-count: 3;
+    padding: 0 0 40px 0;
+
+}
+.quote-card__text{
+    color: #333;
+    margin: 0 0 25px 0;
+    font-size: 18px;
+    line-height: 28px;
+    }
+/*The quote page Ends*/
+
+/*The home page Starts*/
+.books_search_header
+{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 480px;
+    min-height: 200px;
+    text-align: center;
+    background-color: #b2b1ad;
+    color: #333333;
+    font-family: Barlow, Helvetica, Arial, sans-serif;  
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url(../images/making-and-restoring-beautiful-furniture-since-1989.jpg);
+    padding: 95px 15px 200px;
+   
+   
+   
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color: #E7B366;
+    border-color: #E38B29;
+}
+.books_search_title{
+    color: #111;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    max-width: 600px;
+    margin: 0px;
+}
+.books_search_subtitle{
+color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 800px;}
+ 
+
+.home-geners{
+    padding: 60px 15px;
+  
+}
+.home-geners-title{
+    color: #111;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.home-geners-tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.home-geners-tile{
+    color: #4e4e4e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 270px;
+    height: 80px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 3%);
+    text-align: center;
+}
+.home-geners-tile:hover{
+    border-color: #e0b472;
+    color: #e0b472;
+}
+
+.home-quote-slider{
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    padding: 45px 15px;
+    
+    background-color: #E8BCC9;
+    background-image: url(../images/quotes_background-ff4ded02932939a8e825553d533210e6564ca1572555874ed24c93cd8018b683.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
+    height: 500px;
+    
+   
+}
+.carousel-indicators{
+    position: relative;
+    bottom: -400px;
+}
+
+.carousel-caption{
+    position:relative;
+    max-width: 894px;
+    width: 100%;
+    margin:0px;
+  
+}
+.featured-quote{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  
+}
+.featured-quote-blockquote{
+    color: #333;
+    margin: 15px 0 60px 0;
+    text-align: center;
+}
+.featured-quote-blockquote2{
+margin: 15px 0 33px 0;}
+.featured-quote-blockquote span{
+    display: block;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+}
+.featured-quote-blockquote cite{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 22px;
+}
+.search-quote-btn{
+    border-radius: 4px;
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #333333;
+    font-weight: 400;
+    height: 100%;
+    padding: 0px 30px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 5%);
+}
+.search-quote-btn:hover{
+    color: #333333;
+background-color: #f9f9f9;
+box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 10%);}
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+.subscribe .h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+}
+.subscribe .form-control{
+    display: inline-block;
+    border-radius: 0;
+    margin-right: -3px;
+    width: 300px;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+.subscribe .form-control:focus{
+    border-color: #e0b472;
+    color: #111;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 5%);
+
+}
+.lead{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 10px;
+    font-family: 'Roboto Slab', serif;
+}
+.btn-sub{
+        padding: 10px 16px; 
+        font-size: 18px;
+        line-height: 1.33;
+}
+
+.about-bg{
+    
+
+    background-color: #fbfbfb;
+ 
+}
+.back-about{
+    display: flex;
+    flex-wrap: nowrap;
+
+  
+    height: 470px;
+    
+}
+.about-us-info{
+    width: 50%;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-us-info h2{
+color: #111;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    margin: 0 0 15px 0;}
+.about-us-info p{
+color: #4e4e4e;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 20px 0;}
+.ab-bg{
+    width: 50%;
+    background-image: url("../images/0x0\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+.scroll-up{
+   
+    background-image: url("../images/images.png");
+    background-size: cover;
+    width: 40px;
+    height: 38px;
+    color: #ddd;
+    border:none;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(100px);
+ 
+  transition: all 0.5s ease;
+}
+.showBtn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+/*The home page Starts*/    
